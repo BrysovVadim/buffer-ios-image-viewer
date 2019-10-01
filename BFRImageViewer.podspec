@@ -20,5 +20,6 @@ Pod::Spec.new do |s|
     s.platform     = :ios, '11.0'
     s.requires_arc = true
     s.frameworks = "UIKit", "Photos"
+    s.dependency 'DACircularProgress'
     s.dependency 'PINRemoteImage', '~> 3.0.0-beta.13'
 end
